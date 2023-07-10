@@ -28,6 +28,13 @@ function addThreeAway() {
   awayScoreTotal.textContent = awayScore;
 }
 
+function newGame() {
+  homeScore = 0;
+  awayScore = 0;
+  homeScoreTotal.textContent = homeScore;
+  awayScoreTotal.textContent = awayScore;
+}
+
 let homeScore = 0;
 let awayScore = 0;
 let homeScoreTotal = document.getElementById("homescore-el");
