@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Scoreboard</title>
+  </head>
+
+  <body>
+    <div class="scoreboard">
+      <div class="team">
+        <h3>HOME</h3>
+        <div class="score-display">
+          <p id="homescore-el">0</p>
+        </div>
+        <div class="btn-container">
+          <button onclick="addOneHome()">+1</button>
+          <button onclick="addTwoHome()">+2</button>
+          <button onclick="addThreeHome()">+3</button>
+        </div>
+      </div>
+
+      <div class="team">
+        <h3>HOME</h3>
+        <div class="score-display">
+          <p id="awayscore-el">0</p>
+        </div>
+        <div class="btn-container">
+          <button onclick="addOneAway()">+1</button>
+          <button onclick="addTwoAway()">+2</button>
+          <button onclick="addThreeAway()">+3</button>
+        </div>
+      </div>
+
+      <button onclick="logPeriod()">LOG</button>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
