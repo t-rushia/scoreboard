@@ -1,0 +1,72 @@
+@import url("https://fonts.cdnfonts.com/css/60s-scoreboard");
+
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "60s Scoreboard", sans-serif;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: lightblue;
+  height: 100vh;
+}
+
+h3 {
+  font-size: 32px;
+  color: wheat;
+  text-shadow: 0 0 5px yellow;
+}
+
+p {
+  color: red;
+  text-shadow: 0 0 5px red;
+  font-size: 32px;
+}
+
+button {
+  color: wheat;
+  text-shadow: 0 0 2px yellow;
+  background: none;
+  border: 1px solid white;
+  border-radius: 2px;
+  height: 30px;
+  width: 30px;
+  cursor: pointer;
+}
+
+.scoreboard {
+  display: flex;
+  justify-content: space-around;
+  height: 250px;
+  width: 450px;
+  background: rgb(14, 35, 58);
+  border: 2px solid white;
+  border-radius: 15px;
+  box-shadow: 0 0 10px black;
+  text-align: center;
+}
+
+.team {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.score-display {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 5px;
+  height: 50px;
+  width: 80px;
+  background: black;
+  margin-top: 5px;
+}
+
+.btn-container {
+  margin-top: 10px;
+}
